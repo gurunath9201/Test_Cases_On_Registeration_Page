@@ -1,80 +1,74 @@
-Registration Page Test Cases
+# Registration Page Test Cases
 
-📌 Project Overview
-
-This repository contains manual test cases for the Registration Page of a web application.
+## Project Overview
+This repository contains manual test cases for the Registration Page of a web application.  
 The purpose of this project is to verify the functionality, validation rules, and user input handling of the registration form.
 
-These test cases help ensure that the system behaves correctly for both valid and invalid inputs.
+These test cases ensure that the system behaves correctly for both valid and invalid inputs.
 
-🎯 Objective
+---
 
-Validate registration form functionality
+## Objective
+- Validate registration form functionality
+- Verify input field validations
+- Ensure proper error messages are displayed
+- Test successful user registration scenarios
 
-Verify input field validations
+---
 
-Ensure proper error messages are displayed
+## Project Files
 
-Test successful user registration scenarios
+| File Name | Description |
+|-----------|-------------|
+| Test Cases on Registration Page.xlsx | Contains detailed test cases including scenarios, steps, expected results, and status |
 
-📂 Project Files
-File Name	Description
-Test Cases on Registration Page.xlsx	Contains detailed test cases including scenarios, steps, expected results, and status
-🧪 Test Case Fields
+---
 
-The Excel file contains the following columns:
+## Test Case Fields
 
-Test Case ID – Unique ID for each test case
+The Excel file includes the following columns:
 
-Test Scenario – Description of the functionality being tested
+- Test Case ID – Unique identifier for each test case
+- Test Scenario – Description of the functionality being tested
+- Test Steps – Steps to perform the test
+- Test Data – Input data used for testing
+- Expected Result – Expected system behavior
+- Actual Result – Actual output observed
+- Status – Pass / Fail
+- Comments – Additional notes
 
-Test Steps – Steps to perform the test
+---
 
-Test Data – Input data used for testing
+## Test Scenarios Covered
 
-Expected Result – Expected system behavior
+- Valid user registration
+- Empty field validation
+- Invalid email format validation
+- Password validation
+- Confirm password mismatch
+- Mandatory field validation
+- Duplicate user registration
+- Input length validation
 
-Actual Result – Actual output observed
+---
 
-Status – Pass / Fail
+## Tools Used
 
-Comments – Additional notes or observations
+- Microsoft Excel
+- Manual Testing
+- Functional Testing
 
-🔍 Test Scenarios Covered
+---
 
-Valid user registration
+## Author
 
-Empty field validation
-
-Invalid email format validation
-
-Password validation
-
-Confirm password mismatch
-
-Mandatory field validation
-
-Duplicate user registration
-
-Input length validation
-
-🛠 Tools Used
-
-Microsoft Excel
-
-Manual Testing Techniques
-
-Functional Testing
-
-👨‍💻 Author
-
-Gurunath Mule
+Gurunath Mule  
 Aspiring Software Tester | QA Enthusiast
 
-📖 How to Use
+---
 
-Download the Excel file from this repository.
+## How to Use
 
-Open it using Microsoft Excel or any spreadsheet software.
-
-Review the test cases and execute them if required.
+1. Download the Excel file from this repository.
+2. Open it using Microsoft Excel.
+3. Review the test cases and execute them if required.
